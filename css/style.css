@@ -1,0 +1,82 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    margin-top: 12px;
+    color: chartreuse;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+}
+.container{
+    max-width: 80%;
+    background-color: black;
+    border: 2px solid black;
+    padding: 34px;
+    margin: auto;
+    height: 100vh;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message{
+    
+    padding: 7px;
+    margin: 2px 1px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.name{
+    float: left;
+    padding: 7px;
+    color: white;
+}
+.notif{
+    width: 100%;
+    float: left;
+    clear: both;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 2px 0px;
+}
+.left{
+    max-width: 45%;
+    float: left;
+    clear: both;
+    background-color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    max-width: 45%;
+    float: right;
+    clear: both;
+    background-color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 88%;
+    width: 100%;
+}
+#messageInp{
+    width: 86.5%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: larger;
+}
+.btn{
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+    background-color: lawngreen;
+    border-radius: 3px;
+    height: 40px;
+    width: 10%;
+    font-size: larger;
+}
