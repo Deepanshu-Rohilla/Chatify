@@ -4,20 +4,24 @@
   "description": "Node Server for chat application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "debug": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Deepanshu-Rohilla/ChatApp.git"
+    "url": "git+https://github.com/Deepanshu-Rohilla/Chatify.git"
   },
   "author": "Deepanshu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Deepanshu-Rohilla/ChatApp/issues"
+    "url": "https://github.com/Deepanshu-Rohilla/Chatify/issues"
   },
-  "homepage": "https://github.com/Deepanshu-Rohilla/ChatApp#readme",
+  "homepage": "https://github.com/Deepanshu-Rohilla/Chatify#readme",
   "dependencies": {
-    "nodemon": "^2.0.4",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
