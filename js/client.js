@@ -1,9 +1,9 @@
-const socket = io('https://deepanshu-rohilla.github.io/Chatify/');
+
+const socket = io('http://localhost:8000');
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
 const messageContainer = document.querySelector('.container');
  const name  = prompt('Enter your name to join');
-
 
 const append = (message,position)=>{
     const messageElement= document.createElement('div');
@@ -16,7 +16,6 @@ const append = (message,position)=>{
         audio.play();
     }
 }
-
 form.addEventListener('submit', (e)=>{
     e.preventDefault();
     const message = messageInput.value;

@@ -1,0 +1,23 @@
+{
+  "name": "noderserver",
+  "version": "1.0.0",
+  "description": "Node Server for chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepanshu-Rohilla/ChatApp.git"
+  },
+  "author": "Deepanshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepanshu-Rohilla/ChatApp/issues"
+  },
+  "homepage": "https://github.com/Deepanshu-Rohilla/ChatApp#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}

@@ -14,7 +14,7 @@ h1{
 .container{
     max-width: 80%;
     background-color: black;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 34px;
     margin: auto;
     height: 100vh;
