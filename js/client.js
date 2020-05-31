@@ -35,7 +35,8 @@ socket.on('user-joined', name=>{
 append(`${name} joined the chat`, 'notif')
 })
 socket.on('recieve', data=>{
-append(`${data.name} : ${data.message}`, 'left')
+append(`${data.name}`, 'name');
+append(`${data.message}`, 'left')
 })
 socket.on('leave', name=>{
 append(`${name} left the chat`, 'notif')

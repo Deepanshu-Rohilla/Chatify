@@ -22,15 +22,14 @@ h1{
     margin-bottom: 23px;
 }
 .message{
-    
-    padding: 7px;
+    padding: 5px 7px;
     margin: 2px 1px;
     border: 2px solid black;
     border-radius: 10px;
 }
 .name{
     float: left;
-    padding: 7px;
+    padding: 5px 7px 2px;
     color: white;
 }
 .notif{
@@ -41,6 +40,10 @@ h1{
     align-items: center;
     text-align: center;
     padding: 2px 0px;
+    font-size: large;
+    font-style: oblique;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 .left{
     max-width: 45%;
