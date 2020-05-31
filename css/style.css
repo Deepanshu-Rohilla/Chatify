@@ -22,13 +22,13 @@ h1{
     margin-bottom: 23px;
 }
 .message{
-    padding: 5px 7px;
+    padding: 2px 7px;
     margin: 2px 1px;
     border: 2px solid black;
-    border-radius: 10px;
 }
 .name{
     float: left;
+    clear: both;
     padding: 5px 7px 2px;
     color: white;
 }
@@ -42,8 +42,9 @@ h1{
     padding: 2px 0px;
     font-size: large;
     font-style: oblique;
-    border-bottom-width: 1px;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
+    border-bottom-color: white;
 }
 .left{
     max-width: 45%;
@@ -51,6 +52,7 @@ h1{
     clear: both;
     background-color: cyan;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
 }
 .right{
     max-width: 45%;
@@ -58,6 +60,7 @@ h1{
     clear: both;
     background-color: greenyellow;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
 }
 #send-container{
     display: block;
