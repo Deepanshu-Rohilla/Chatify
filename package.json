@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Deepanshu-Rohilla/ChatApp#readme",
   "dependencies": {
-    "nodemon": "^2.0.4",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
