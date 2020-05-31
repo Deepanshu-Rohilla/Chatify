@@ -23,7 +23,7 @@ form.addEventListener('submit', (e)=>{
         audio.play();
     }
     else{
-    append(`You : ${message}`, 'right');
+    append(`${message}`, 'right');
     socket.emit('send', message);
     messageInput.value = '';
     }
