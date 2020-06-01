@@ -79,6 +79,7 @@ async function connect(user) {
     }
     console.log(name,'now');
     document.getElementById('name').innerHTML = name;
+    document.getElementById('send-msg').disabled = false;
 
     socket.emit('new-user-joined', name);
     socket.on('user-joined', name => {
