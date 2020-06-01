@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chatify</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
+
+
+
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="/js/client.js"></script>
+
+</head>
+
+<body background="/images/Back2.jpeg">
+    <nav>
+        <img class="logo" src="/images/logo.png" alt="">
+        <h1>Welcome to Chatify</h1>
+        <button class='btn' onclick="logout()" >logout</button>
+        <p id='name'></p>
+    </nav>
+    <div class="container">
+    </div>
+    <div class="send" id="send-container">
+        <form action="#">
+            <input type="text" name='messageInp' id="messageInp" placeholder="Type Message to Send" />
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
